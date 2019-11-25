@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "179582997776",
+    "firebase_url": "https://onejourney-b3206.firebaseio.com",
+    "project_id": "onejourney-b3206",
+    "storage_bucket": "onejourney-b3206.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:179582997776:android:04a063abdb3225981c0195",
+        "android_client_info": {
+          "package_name": "com.oneinlife.onejourney"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "179582997776-d8526m6u3amnr2fnp9f4tjfskrt83sn4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.oneinlife.onejourney",
+            "certificate_hash": "183eddb2746631b4952c09cc2f3ca99bf31ebf84"
+          }
+        },
+        {
+          "client_id": "179582997776-9gcbnnri7coki19hjvo5tp5mcn3cu18a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVYyTZo0W9vYe38_DHOsQ9z1l5tbCAPCI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "179582997776-9gcbnnri7coki19hjvo5tp5mcn3cu18a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

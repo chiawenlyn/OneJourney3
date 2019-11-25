@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="colorPrimary">#6DD0CD</color>
+  <color name="colorPrimaryDark">#009688</color>
+  <color name="colorAccent">#F44336</color>
+  <color name="colorBlack">#000000</color>
+  <color name="colorWhite">#FFFFFF</color>
+
+  <color name="fade">#555555</color>
+
+  <color name="irish_green">#009966</color>
+  <color name="tiffany_darker">#37B49A</color>
+  <color name="tiffany">#6DD0CD</color>
+  <color name="tiffany_lighter">#AEE8DE</color>
+  <color name="irish_white">#FFFFCC</color>
+  <color name="orange_lighter">#FFD089</color>
+  <color name="orange_light">#FFB13B</color>
+  <color name="irish_orange">#FF9900</color>
+
+</resources>

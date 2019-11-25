@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto">
+  <item
+    android:id="@+id/item_shareJourney"
+    android:icon="@drawable/ic_share_journey"
+    android:title="@string/share_journey"
+    app:showAsAction="ifRoom" />
+  <item
+    android:id="@+id/item_shareVehicle"
+    android:icon="@drawable/ic_share_vehicle"
+    android:title="@string/share_vehicle"
+    app:showAsAction="ifRoom" />
+  <item
+    android:id="@+id/item_shareRoom"
+    android:icon="@drawable/ic_share_room"
+    android:title="@string/share_room"
+    app:showAsAction="ifRoom" />
+
+</menu>

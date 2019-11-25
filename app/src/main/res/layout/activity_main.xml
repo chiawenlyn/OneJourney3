@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id='@+id/mainActivity_RL'
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@color/colorBlack"
+  tools:context=".MainActivity">
+
+  <ImageView
+    android:id="@+id/mainActivity_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="0.6"
+    android:scaleType="centerCrop"
+    android:src="@drawable/background" />
+
+  <ImageView
+    android:id="@+id/mainActivity_logo"
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:layout_alignParentTop="true"
+    android:layout_centerInParent="true"
+    android:layout_marginTop="160dp"
+    android:src="@drawable/logo" />
+
+  <TextView
+    android:id="@+id/mainActivity_tag_line"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/mainActivity_logo"
+    android:layout_centerInParent="true"
+    android:text="@string/get_started_tag_line"
+    android:textColor="@color/colorWhite"
+    android:textStyle="bold" />
+
+  <Button
+    android:id="@+id/mainActivity_startBtn"
+    android:layout_width="130dp"
+    android:layout_height="40dp"
+    android:layout_below="@id/mainActivity_tag_line"
+    android:layout_centerInParent="true"
+    android:layout_marginTop="20dp"
+    android:background="@drawable/round"
+    android:text="@string/get_started_btn" />
+
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto">
+  <item
+    android:id="@+id/group_item_1"
+    android:title="About Me">
+    <menu>
+      <item
+        android:id="@+id/item_profile"
+        android:checked="true"
+        android:icon="@drawable/ic_person"
+        android:title="Profile" />
+
+      <item
+        android:id="@+id/item_notifications"
+        android:checked="true"
+        android:icon="@drawable/ic_notify"
+        android:title="Notifications"
+        app:actionViewClass="android.widget.TextView" />
+
+      <item
+        android:id="@+id/item_setting"
+        android:checked="true"
+        android:icon="@drawable/ic_setting"
+        android:title="Setting" />
+
+    </menu>
+
+  </item>
+
+  <item
+    android:id="@+id/group_item_2"
+    android:title="About My Friends">
+    <menu>
+      <item
+        android:id="@+id/item_favor"
+        android:checked="true"
+        android:icon="@drawable/ic_fav_stories"
+        android:title="Favorite" />
+
+      <item
+        android:id="@+id/item_travel_photos"
+        android:checked="true"
+        android:icon="@drawable/ic_travel_photos"
+        android:title="Photos" />
+
+      <item
+        android:id="@+id/item_travel_stories"
+        android:checked="true"
+        android:icon="@drawable/ic_travel_stories"
+        android:title="Stories" />
+
+    </menu>
+
+  </item>
+
+  <item
+    android:id="@+id/item_signOut"
+    android:checked="true"
+    android:icon="@drawable/ic_signout"
+    android:title="Sign Out" />
+
+
+</menu>
